@@ -1,0 +1,68 @@
+.posts-line {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 5vh;
+  .link {
+    .post-content {
+      color: red;
+      font-size: 22px;
+      cursor: pointer;
+      text-decoration: underline;
+      margin-top: 10px;
+    }
+  }
+  .quote {
+    .post-title {
+      border-left: 10px solid #6498cc;
+      padding-left: 20px;
+    }
+    .post-source {
+      font-weight: bold;
+      color: #aaa;
+      text-decoration: none;
+      &:hover {
+        color: blue;
+      }
+    }
+  }
+  .conversation {
+    .Jack-table {
+      background-color: #f8f8f8;
+    }
+    .Lindsey-table {
+      background-color: #e8e8e8;
+    }
+    .conversation-table {
+      border-left: 5px solid blue;
+      padding-left: 30px;
+      .Jack {
+        color: red;
+        font-weight: bold;
+      }
+      .Lindsey {
+        color: blue;
+        font-weight: bold;
+      }
+    }
+  }
+  .post-date {
+    font-size: 13px;
+  }
+  .post-photo {
+    text-align: center;
+    margin: 30px 0;
+    .post-caption {
+      font-weight: bold;
+      color: #cac;
+    }
+  }
+
+  .type {
+    margin-top: 50px;
+  }
+  .post-title {
+    font-size: 30px;
+  }
+}
