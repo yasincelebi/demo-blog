@@ -7,7 +7,7 @@ export const PostProvider = (props) => {
   const [totalPost, setTotalPost] = useState("");
   const fetchData = () => {
     setTotalPost(BlogData["posts-total"]);
-    setPostsData(JSON.stringify(BlogData.posts));
+    setPostsData(JSON.parse(JSON.stringify(BlogData.posts)));
   };
   useEffect(() => {
     fetchData();
